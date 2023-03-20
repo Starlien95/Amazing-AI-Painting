@@ -12,6 +12,7 @@ When installing PyTorch, it is essential to install the corresponding CUDA toolk
 * pip install einops
 * pip install pytorch-lightning
 * pip install open-clip-torch
+* pip install ldm
 
 #### xformers efficient attention
 * export CUDA_HOME=/usr/local/cuda-11.3
