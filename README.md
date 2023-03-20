@@ -15,8 +15,8 @@ When installing PyTorch, it is essential to install the corresponding CUDA toolk
 * pip install ldm
 
 #### xformers efficient attention
-* export CUDA_HOME=/usr/local/cuda-11.3
-* conda install -c nvidia/label/cuda-11.3.0 cuda-nvcc
+* export CUDA_HOME=/usr/local/cuda-11.5
+* conda install -c nvidia/label/cuda-11.5.0 cuda-nvcc
 * conda install -c conda-forge gcc
 * conda install -c conda-forge gxx_linux-64==9.5.0
 
