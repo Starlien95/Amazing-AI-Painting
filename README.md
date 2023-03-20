@@ -21,7 +21,7 @@ When installing PyTorch, it is essential to install the corresponding CUDA toolk
 
 
 ## Running
-* python scripts/txt2img.py --prompt "a professional photograph of an astronaut riding a horse" --ckpt pretrain/v2-1_768-ema-pruned.ckpt --config configs/stable-diffusion/v2-inference-v.yaml --H 768 --W 768 --device cuda --n_samples 1
+* **python scripts/txt2img.py --prompt "a professional photograph of an astronaut riding a horse" --ckpt pretrain/v2-1_768-ema-pruned.ckpt --config configs/stable-diffusion/v2-inference-v.yaml --H 768 --W 768 --device cuda --n_samples 1**
 \
 \
 It's necessary to tune **n_sample** otherwise it's highly likely OOM.
