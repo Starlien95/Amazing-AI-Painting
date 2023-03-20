@@ -19,6 +19,13 @@ When installing PyTorch, it is essential to install the corresponding CUDA toolk
 * conda install -c nvidia/label/cuda-11.5.0 cuda-nvcc
 * conda install -c conda-forge gcc
 * conda install -c conda-forge gxx_linux-64==9.5.0
+* cd ..
+* git clone https://github.com/facebookresearch/xformers.git
+* cd xformers
+* git submodule update --init --recursive
+* pip install -r requirements.txt
+* pip install -e .
+* cd ../stablediffusion
 
 
 
