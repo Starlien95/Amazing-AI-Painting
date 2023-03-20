@@ -6,3 +6,9 @@
 * **pip install -e .**\
 \
 When installing PyTorch, it is essential to install the corresponding CUDA toolkit; otherwise, the *"Torch not compiled with CUDA enabled"* error will occur. If **torch.cuda.is_available()** returns **True**, then it is installed correctly.
+\
+**xformers efficient attention**
+* export CUDA_HOME=/usr/local/cuda-11.3
+* conda install -c nvidia/label/cuda-11.3.0 cuda-nvcc
+* conda install -c conda-forge gcc
+* conda install -c conda-forge gxx_linux-64==9.5.0
