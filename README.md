@@ -5,7 +5,7 @@
 * **pip install transformers==4.19.2 diffusers invisible-watermark**
 * **pip install -e .**\
 \
-When installing PyTorch, it is essential to install the corresponding CUDA toolkit; otherwise, the *"Torch not compiled with CUDA enabled"* error will occur. If **torch.cuda.is_available()** returns **True**, then it is installed correctly.\
+When installing PyTorch, it is essential to install the corresponding CUDA toolkit; otherwise, the *"Torch not compiled with CUDA enabled"* error will occur. If **torch.cuda.is_available()** returns **True**, then it is installed correctly.
 
 #### other necessary packages**
 * pip install omegaconf
