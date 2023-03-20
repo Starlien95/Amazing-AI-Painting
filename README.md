@@ -29,6 +29,5 @@ When installing PyTorch, it is essential to install the corresponding CUDA toolk
 \
 It's necessary to tune **n_sample** otherwise it's highly likely OOM.
 \
-\
 ### image to image
 * **python scripts/img2img.py --prompt "A fantasy landscape, trending on artstation" --init-img <path-to-img.jpg> --strength 0.8 --ckpt <path/to/model.ckpt>**
