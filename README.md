@@ -6,7 +6,8 @@
 * **pip install -e .**\
 \
 When installing PyTorch, it is essential to install the corresponding CUDA toolkit; otherwise, the *"Torch not compiled with CUDA enabled"* error will occur. If **torch.cuda.is_available()** returns **True**, then it is installed correctly.\
-**other necessary packages**
+\
+#### other necessary packages**
 * pip install omegaconf
 * pip install einops
 * pip install pytorch-lightning
